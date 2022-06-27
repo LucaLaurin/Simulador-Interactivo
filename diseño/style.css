@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Roboto&display=swap');
 
 :root{
-    --main-bg-1: hsl(222, 26%, 31%);
+    --main-bg-1: hsl(221, 26%, 51%);
     --keys-1: hsl(223, 31%, 20%);
     --screen-background-1: hsl(224, 36%, 15%);
     --keys-bg-1: hsl(225, 21%, 49%);
@@ -12,7 +12,7 @@
     --grey-key-shadow-1:  hsl(28, 16%, 65%);
     --key-text-1: hsl(221, 14%, 31%);
 
-    --main-bg-2: hsl(0, 0%, 90%);
+    --main-bg-2: hsl(0, 18%, 72%);
     --keypad-bg-2: hsl(0, 5%, 81%);
     --screen-bg-2: hsl(0, 0%, 93%);
     --key-bg-2: hsl(185, 42%, 37%);
@@ -22,15 +22,15 @@
     --key-grey-shadow-2: hsl(35, 11%, 61%);
     --key-text-2: hsl(60, 10%, 19%);
 
-    --main-bg-3: hsl(281, 89%, 26%);
-    --screen-bg-3: hsl(268, 71%, 12%);
+    --main-bg-3: hsl(310, 55%, 37%);
+    --screen-bg-3: hsl(268, 54%, 36%);
     --key-shadow-3: hsl(285, 91%, 52%);
-    --key-bg-toggle-3: hsl(176, 100%, 44%);
+    --key-bg-toggle-3: hsl(172, 92%, 33%);
     --special-key-3: rgba(86,7,124,255);
     --key-2-shadow-3: hsl(177, 92%, 70%);
     --key-bg-3: hsl(268, 47%, 21%);
     --key-bg-shadow-3: hsl(290, 70%, 36%);
-    --key-text-3: hsl(52, 100%, 62%);
+    --key-text-3: hsl(52, 72%, 48%);
     --key-blue-text-3: hsl(198, 20%, 13%);
 }
 
@@ -88,7 +88,7 @@
     height: 0;
   }
   
-  /* The slider */
+  /* Slider --> */
   .slider {
     position: absolute;
     cursor: pointer;
@@ -135,7 +135,7 @@
     transform: translateX(40px);
   }
   
-  /* Rounded sliders */
+  /* Pelotita slider */
   .slider.round {
     border-radius: 34px;
     background-color: #252d44;
@@ -342,7 +342,7 @@
     background-color: #94fff9;
 }
 
-
+/* Responsive */
 
 @media only screen and (max-width: 500px){
     .container{
